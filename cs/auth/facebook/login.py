@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 import json
 import urlparse
 import urllib
@@ -22,6 +23,7 @@ FACEBOOK_ACCESS_TOKEN_URL = "https://graph.facebook.com/oauth/access_token"
 FACEBOOK_PROFILE_URL      = "https://graph.facebook.com/me"
 FACEBOOK_PROFILE_PICTURE_URL = "https://graph.facebook.com/me/picture"
 FB_AUTHENTICATION_SALT_KEY = 'cs.auth.facebook.AUTHENTICATION_SALT_KEY'
+#改下面這行，變更要取得的權限
 PERMISSIONS = 'email'
 
 from logging import getLogger
